@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Επικοινωνία - TECHKOS</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">TECHKOS</a>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="ταμειακα.html">Ταμειακά</a></li>
+          <li><a href="ασυρματη.html">Ασφάλεια / Ασυρματες</a></li>
+          <li><a href="erp.html">ERP</a></li>
+          <li><a href="it-service.html">IT Service</a></li>
+          <li><a href="γραφικα.html">Γραφικά</a></li>
+          <li><a href="case-studies.html">Case Studies</a></li>
+          <li><a href="σχετικα.html">Σχετικά</a></li>
+          <li><a href="επικοινωνια.html" class="active">Επικοινωνία</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="container">
+        <h1>Επικοινωνία</h1>
+        <p>Στείλε μας μήνυμα για να σε βοηθήσουμε να επιλέξεις τη σωστή λύση για την επιχείρησή σου.</p>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="container">
+        <h2>Φόρμα επικοινωνίας</h2>
+
+        <form class="contact-form">
+          <label>Ονοματεπώνυμο
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+
+          <label>Email
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+
+          <label>Τηλέφωνο (προαιρετικό)
+            <input type="tel" name="phone" />
+          </label>
+
+          <label>Μήνυμα
+            <textarea name="message" rows="6" required></textarea>
+          </label>
+
+          <button type="submit">Αποστολή</button>
+        </form>
+
+        <p class="note">Σημείωση: Η φόρμα θέλει “backend” για να στέλνει email. Για το demo είναι μόνο UI.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> TECHKOS. Όλα τα δικαιώματα διατηρούνται.</p>
+    </div>
+  </footer>
+</body>
+</html>
